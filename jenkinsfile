@@ -9,7 +9,7 @@ tools {
         stage('SCM-Checkout') {
             steps {
    
-	url: 'https://github.com/vikas99341/tomcat-jenkins.git'
+	url: 'https://github.com/magellis78/tomcat-jenkins.git'
             }
         }
         stage('Maven-Goal') {
