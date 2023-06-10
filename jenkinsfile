@@ -8,8 +8,8 @@ tools {
     stages {
         stage('SCM-Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'git-credentials', 
-				url: 'https://github.com/vikas99341/tomcat-jenkins.git'
+   
+	url: 'https://github.com/vikas99341/tomcat-jenkins.git'
             }
         }
         stage('Maven-Goal') {
