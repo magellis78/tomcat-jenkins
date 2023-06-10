@@ -3,7 +3,7 @@ currentBuild.displayName = "Tomcat-Deployment-"+currentBuild.number
 pipeline {
     agent any
 tools {
-  maven 'mvn_home'
+  maven '/usr/share/maven'
 }
     stages {
         stage('SCM-Checkout') {
